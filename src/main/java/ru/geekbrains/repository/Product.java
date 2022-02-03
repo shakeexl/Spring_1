@@ -18,9 +18,4 @@ public class Product {
         this.title = title;
         this.cost = cost;
     }
-
-    @Override
-    public String toString() {
-        return String.format("Product {id = %-2s | name = %-15s | price = %-8s}", id, title, cost);
-    }
 }
